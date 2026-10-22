@@ -13,7 +13,7 @@
     --color-rrhh-principal: #45609F;
     --color-rrhh-secundario: #E7EDFE;
     --color-rrhh-acento1: #fe7062;
-    --color-rrhh-acento2: #a259a8;
+    --color-rrhh-acento2: #85428C;
     --color-embus-principal: #2180c3;
     --color-embus-claro: #c8e7f1;
     --color-embus-secundario: #e841d9;
@@ -24,12 +24,12 @@
     --color-efm-acento2:#f78407;
     --color-operaciones-principal: #E1261B;
     --color-operaciones-secundario: #5F2167;
-    --color-operaciones-acento1: #a259a8;
+    --color-operaciones-acento1: #85428C;
     --color-operaciones-acento2: #a3221c;
     --color-atc-principal: #5F2167;
     --color-atc-secundario: #E1261B;
-    --riesgos-principal:#f4a729;
-    --riesgos-secundario:#5F2167;
+    --riesgos-principal: #f4a729;
+    --riesgos-secundario: #5F2167;
 
 
     --icon-bus: url(https://universidad.mobilityado.com/pluginfile.php/55317/mod_folder/content/0/iconos/bus.svg);
@@ -1303,4 +1303,62 @@ h5.bg {
 
 .icono.blanco::before {
     filter: invert(100%);
+}
+
+/* ====== HOMOLOGACIÓN TIPOGRÁFICA ====== */
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 28px !important;
+}
+
+h4 {
+  font-size: 24px !important;
+}
+
+h5 {
+  font-size: 20px !important;
+}
+
+h6 {
+  font-size: 18px !important;
+}
+
+p,
+li {
+  font-size: 16px !important;
+}
+
+.call2action {
+  font-size: 21px !important;
+}
+
+.highlight {
+  font-size: 18px !important;
+}
+
+.titulo {
+  font-size: 24px !important;
+}
+
+.importante,
+.ejemplo,
+.tips {
+  font-size: 16px !important;
+}
+
+.accordion h5 button,
+.accordion .btn-link {
+  font-size: 18px !important;
+}
+
+.card-title {
+  font-size: 18px !important;
 }
