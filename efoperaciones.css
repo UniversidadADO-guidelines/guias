@@ -12,8 +12,11 @@
         font-weight: 700;
     }
 
-    .call2action, a{
+    .call2action{
         color: var(--color-operaciones-acento1) !important;
+    }
+         a{
+        color: #dfb11a !important;
     }
 
     .highlight{
@@ -157,6 +160,14 @@
 
     .ejemplo, .tips{
         background-color: var(--color-operaciones-acento1);
+        color: white !important;
+        font-weight: bold;
+    }
+     .ejemplo, .tips{
+        b{
+        color: #dfb11a !important;
+        font-weight: bold;  
+        }
     }
 
     .accordion{
